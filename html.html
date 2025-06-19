@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Styling and JS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Responsive Interactive Page</h1>
+  </header>
+
+  <section class="quiz-section">
+    <h2>Quiz</h2>
+    <div id="quiz-container">
+      <p id="question">Loading question...</p>
+      <div id="options"></div>
+      <button onclick="nextQuestion()">Next</button>
+    </div>
+  </section>
+
+  <section class="carousel-section">
+    <h2>Image Carousel</h2>
+    <div class="carousel">
+      <img id="carousel-image" src="https://via.placeholder.com/600x300?text=Image+1" alt="Carousel" />
+    </div>
+  </section>
+
+  <section class="api-section">
+    <h2>Joke API</h2>
+    <button onclick="fetchJoke()">Get a Joke</button>
+    <p id="joke">Click the button to load a joke.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ApexPlanet Software Pvt Ltd</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
